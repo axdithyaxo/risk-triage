@@ -1,11 +1,12 @@
-# Marsh Risk Triage
+# Risk Triage
 
 An underwriting triage application: a person signs in, submits a property risk,
 three LLM analyses run in parallel against retrieved underwriting guidelines, and
 **a human decides** bind or refer. Every decision, with the exact evidence the
 reviewer saw and who they were, goes into a tamper-evident audit log. Built end
-to end for Marsh's *Software Engineer, Generative AI and Innovation* role (req
-`R_355019`). All submissions are synthetic; no real client data.
+to end as a portfolio project for a generative-AI engineering role in insurance.
+All submissions are synthetic; no real client data, and it is not any insurer's
+system.
 
 ```
 Browser ──▶ frontend (React + TS, nginx) ──▶ backend (Node + Express + TS, SQLite) ──▶ agent-api (Python, FastAPI, Lár) ──▶ model
@@ -217,5 +218,5 @@ What this does not protect against (see [docs/SECURITY.md](docs/SECURITY.md)):
 
 ## Earlier version
 
-[`marsh-risk-triage-agent`](https://github.com/axdithyaxo/marsh-risk-triage-agent)
+[`marsh-risk-triage-agent`](https://github.com/axdithyaxo/marsh-risk-triage-agent) (older name, kept so existing links work)
 is the first, single-agent version of this idea.

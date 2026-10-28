@@ -1,5 +1,5 @@
 {
-  "_note": "SYNTHETIC underwriting guidelines written for this demo. They are not Marsh's or any insurer's real guidelines, and contain no confidential material.",
+  "_note": "SYNTHETIC underwriting guidelines written for this demo. They are not any insurer's real guidelines, and contain no confidential material.",
   "chunks": [
     {"id": "G-PROP-01", "dimension": "property", "title": "Flood exposure",
      "text": "Locations on a mapped river or coastal flood plain, or with a flood event in the last 10 years, must be referred to a senior underwriter. A commercial location on a flood plain with a total insured value above EUR 2 million and no installed flood defences is CRITICAL. A location outside any mapped flood zone with no flood history carries no flood loading and is LOW for this factor."},

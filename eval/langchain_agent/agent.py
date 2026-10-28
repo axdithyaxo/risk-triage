@@ -1,5 +1,5 @@
 """
-LangGraph implementation of the Marsh P&C risk triage pipeline (see SPEC.md).
+LangGraph implementation of the P&C risk triage pipeline (see SPEC.md).
 
 Fan-out/fan-in uses plain multi-edge LangGraph parallelism (three add_edge
 calls from one node, three add_edge calls into the join node) rather than

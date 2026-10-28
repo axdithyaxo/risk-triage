@@ -1,5 +1,5 @@
 {
-  "description": "Shared ground-truth evaluation set for the Marsh P&C risk triage agent comparison. Both the Lar and LangChain implementations must be run against this EXACT file, unmodified, so the comparison is fair. 'expected_decision' is BIND, REFER, or BLOCKED (injection should never reach a decision). 'expected_min_severity' is the worst risk_level any single parallel branch should report (LOW/MEDIUM/HIGH/CRITICAL) -- used to check the fan-out/consolidation step actually surfaces the worst branch, not an averaged-away score.",
+  "description": "Shared ground-truth evaluation set for the P&C risk triage agent comparison. Both the Lar and LangChain implementations must be run against this EXACT file, unmodified, so the comparison is fair. 'expected_decision' is BIND, REFER, or BLOCKED (injection should never reach a decision). 'expected_min_severity' is the worst risk_level any single parallel branch should report (LOW/MEDIUM/HIGH/CRITICAL) -- used to check the fan-out/consolidation step actually surfaces the worst branch, not an averaged-away score.",
   "cases": [
     {
       "id": "c01_clean_standard",

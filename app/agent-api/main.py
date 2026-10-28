@@ -110,7 +110,7 @@ def validate_config():
 validate_config()
 
 _docs = {} if ENV != "production" else {"docs_url": None, "redoc_url": None, "openapi_url": None}
-app = FastAPI(title="Marsh Risk Triage Agent API", **_docs)  # no CORS: browsers never call this service
+app = FastAPI(title="Risk Triage Agent API", **_docs)  # no CORS: browsers never call this service
 
 
 def require_internal(x_internal_token: Optional[str] = Header(default=None)):

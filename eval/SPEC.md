@@ -1,9 +1,9 @@
-# Marsh P&C Risk Triage Agent v2 — shared spec
+# P&C Risk Triage Agent v2 — shared spec
 
-Built for Marsh's "Software Engineer, Generative AI and Innovation" role (req
-R_355019). Upgrade from the v1 demo (`marsh-risk-triage-agent`, already on
+Built as a portfolio project for a generative-AI engineering role in insurance.
+Upgrade from the v1 demo (`marsh-risk-triage-agent`, already on
 GitHub) to something that actually demonstrates agent patterns, guardrails,
-and an evaluation harness — the specific things that JD calls out — instead
+and an evaluation harness — the specific things that such a role calls out — instead
 of a single linear LLM call.
 
 Both implementations below (Lar and LangChain/LangGraph) must implement the

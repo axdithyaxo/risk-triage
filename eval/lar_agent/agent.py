@@ -1,5 +1,5 @@
 """
-Marsh P&C Risk Triage Agent v2 -- Lar implementation.
+P&C Risk Triage Agent v2 -- Lar implementation.
 
 Pipeline: intake validation -> PII redaction (log-only copy, never mutates
 the working submission) -> prompt-injection guard -> 3-way parallel risk
