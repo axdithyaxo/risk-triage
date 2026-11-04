@@ -1,4 +1,4 @@
-FROM node:22-bookworm-slim AS build
+FROM node:26-bookworm-slim AS build
 # better-sqlite3 is a native module: if no prebuilt binary matches the platform
 # it compiles from source, which needs a toolchain. That toolchain stays in this
 # stage; the runtime image only receives the compiled result.
@@ -11,7 +11,7 @@ COPY tsconfig.json ./
 COPY src ./src
 RUN npm run build && npm prune --omit=dev
 
-FROM node:22-bookworm-slim
+FROM node:26-bookworm-slim
 ENV NODE_ENV=production
 WORKDIR /app
 COPY package*.json ./
