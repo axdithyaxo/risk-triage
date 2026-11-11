@@ -1,6 +1,6 @@
 # Build from the repo root: docker build -f app/agent-api/Dockerfile .
 # (the API imports the shared pipeline and guidelines from eval/)
-FROM python:3.12-slim
+FROM python:3.15-slim
 
 # git: requirements.txt installs Lár from a pinned GitHub commit
 RUN apt-get update && apt-get install -y --no-install-recommends git \
